@@ -33,7 +33,6 @@ async function get_table_data(){
     }
 }
 
-
 /* SUPPORT FUNCTION */
 
 function convertDataFormat(data){

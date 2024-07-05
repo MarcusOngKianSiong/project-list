@@ -17,6 +17,7 @@ function display_charts(overarching_title){
     const table = document.createElement("div")
     
     
+    
     table.classList.add("visual-project-container")
     // table.style.width = viewWidth * 0.7 + "px"
     const seventy_percent = outer_container_width
