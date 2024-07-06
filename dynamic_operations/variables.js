@@ -2,16 +2,16 @@
 
 // PRODUCTION SOURCE
 const table_route_projects = "https://personal-back-end.onrender.com/projects";
-// const table_route_visuals = "https://project-list-uf6y.onrender.com/visual_list"
-// const visual_data_route = "https://project-list-uf6y.onrender.com/"
+const table_route_visuals = "https://project-list-uf6y.onrender.com/visual_list"
+const visual_data_route = "https://project-list-uf6y.onrender.com/"
 
 // TEST SOURCE
 // const table_route_visuals = "http://172.16.33.25:10000/visual_list"
 // const visual_data_route = "http://172.16.33.25:10000/"
 
 
-const table_route_visuals = "http://192.168.10.145:10000/visual_list"
-const visual_data_route = "http://192.168.10.145:10000/";
+// const table_route_visuals = "http://192.168.10.145:10000/visual_list"
+// const visual_data_route = "http://192.168.10.145:10000/";
 
 
 
