@@ -1,3 +1,13 @@
+#title{
+    text-align: center;
+}
+
+#back{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
 #content{
     display: flex;
     flex-direction: row;

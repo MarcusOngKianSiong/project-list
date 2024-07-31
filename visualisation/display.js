@@ -13,9 +13,7 @@ function organise_visuals(arr_of_elements){
     content.replaceChildren()
     const rows = []
     // Construct table
-
     const count = arr_of_elements.length
-    
     let current_index = 0
     let current_row = []
     for(let i = 0;i<count;i++){
@@ -24,26 +22,22 @@ function organise_visuals(arr_of_elements){
             rows.push(create_actual_visual_row_element(current_row))
             current_row = []
         }
-        
         const column_element = document.createElement("div")
         column_element.classList.add("visual-cell")
         column_element.appendChild(arr_of_elements[i])
         current_row.push(column_element)
     }
-
     rows.push(create_actual_visual_row_element(current_row))
     current_row = []
-    
     rows.forEach(item=>{
         content.appendChild(item)
     })
-
 }
 
 
 
 async function display_visual(){
-    const image_data = await fetch("http:192.168.10.145:10001/custom_package_usage/usage")
+    const image_data = await fetch("https://project-list-uf6y.onrender.com/custom_package_usage/usage")
     const segmented = await response_segmentation(image_data)                       // CDN
     const length = segmented.parts.length
     const visuals = []

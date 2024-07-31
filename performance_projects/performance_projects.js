@@ -14,7 +14,7 @@ const move_to_visualisation = (x) => {
 }
 
 async function get_table_data(){
-    const data = await fetch('http://192.168.10.145:10001/visual_list_2')    
+    const data = await fetch('https://project-list-uf6y.onrender.com/visual_list_2')    
     const core = await data.json()
     if (core["outcome"] == "error"){
         throw new Error("Unable to get data from server....")
