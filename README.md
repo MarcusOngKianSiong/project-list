@@ -2,13 +2,14 @@
 - Bug fixes:
     1. ✅ Moving to the next "thing" before the completion of the previous "thing" would cause the previous "thing" to override the completion of current "thing".
         2. ✅ Create multipage infrastructure
+
 - Changes:
     1. Development aspect: 
         - ✅ Create two types of table
             1. the whole row when clicked, brings you to another page within the website. 
             2. There are more than one column in the row that can bring you to other sites.
     2. ✅ Able to use the back button and the front button to navigate between pages.
-
+    
 ### Operation Components
 1. Table manipulation: 
 2. Image reconstruction: 

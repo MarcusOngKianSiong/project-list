@@ -37,7 +37,8 @@ function organise_visuals(arr_of_elements){
 
 
 async function display_visual(){
-    const image_data = await fetch("https://project-list-uf6y.onrender.com/custom_package_usage/usage")
+    
+    const image_data = await fetch(`https://project-list-uf6y.onrender.com/${name.replace(/\s+/g, '_')}/usage`)
     const segmented = await response_segmentation(image_data)                       // CDN
     const length = segmented.parts.length
     const visuals = []
